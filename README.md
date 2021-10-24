@@ -7,4 +7,4 @@
     ln -s /usr/share/data-minor-bioinf/assembly/oilMP_S4_L001_R1_001.fastq
     ln -s /usr/share/data-minor-bioinf/assembly/oilMP_S4_L002_R1_001.fastq
     ls *.fastq | xargs -P 4 -tI{} fastqc -o fastqc {}
-
+    multiqc -o multiqc fastqc
