@@ -2,7 +2,7 @@
 
 Шагалкина Дарья, группа 1
 
-### Список всех команд, выполненных на сервере
+### Список команд
 
     mkdir hw1
     ln -s /usr/share/data-minor-bioinf/assembly/oil_R1.fastq
@@ -45,3 +45,8 @@
     scp -i my_key -P 32222 dvshagalkina@92.242.58.92:/home/dvshagalkina/hw2/out* /home/daria/Documents/minor
     
     
+
+### MultiQC отчет
+
+
+### Ссылки
