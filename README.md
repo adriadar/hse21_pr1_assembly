@@ -36,13 +36,9 @@
     mkdir multiqc_tr
     multiqc -o multiqc_tr fastqc_tr
     
-    platanus assemble -f *trimmed
+    platanus assemble -f pe1.fastq.trimmed pe2.fastq.trimmed
+    platanus scaffold -c out_contig.fa -IP1 pe1.fastq.trimmed pe2.fastq.trimmed -OP2 mp1.fastq.int_trimmed mp2.fastq.int_trimmed
     
     scp -i my_key -P 32222 dvshagalkina@92.242.58.92:/home/dvshagalkina/hw1/multiqc/multiqc_report.html /home/daria/Documents/minor
     scp -i my_key -P 32222 dvshagalkina@92.242.58.92:/home/dvshagalkina/hw1/multiqc_tr/multiqc_report.html /home/daria/Documents/minor
-    
-    
-    
-    
-    
     
