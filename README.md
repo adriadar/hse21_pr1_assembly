@@ -48,6 +48,6 @@
 
 ### MultiQC отчет
 ###### Для не подрезанных чтений
-![alt text](https://github.com/adriadar/hse21_hw1/blob/main/MultiQC_report/not_trimmed_general_statistics.png?raw=true)
+![image](https://github.com/adriadar/hse21_hw1/blob/main/MultiQC_report/not_trimmed_general_statistics.png)
 
 ### Ссылки
