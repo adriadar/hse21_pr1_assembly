@@ -40,9 +40,16 @@
     platanus scaffold -c out_contig.fa -IP1 pe1.fastq.trimmed pe2.fastq.trimmed -OP2 mp1.fastq.int_trimmed mp2.fastq.int_trimmed
     platanus gap_close -c out_scaffold.fa -IP1 pe1.fastq.trimmed pe2.fastq.trimmed -OP2 mp1.fastq.int_trimmed mp2.fastq.int_trimmed
     
+    sed -n '1,/>/p' out_scaffold.fa | cat >longest.fasta
+    sed -i '$d' longest.fasta
+    
+    sed -n '1,/>/p' out_gapClosed.fa | cat >longest_without_gaps.fasta
+    sed -i '$d' longest_without_gaps.fasta
+    
     scp -i my_key -P 32222 dvshagalkina@92.242.58.92:/home/dvshagalkina/hw2/multiqc/multiqc_report.html /home/daria/Documents/minor
     scp -i my_key -P 32222 dvshagalkina@92.242.58.92:/home/dvshagalkina/hw2/multiqc_tr/multiqc_report.html /home/daria/Documents/minor
     scp -i my_key -P 32222 dvshagalkina@92.242.58.92:/home/dvshagalkina/hw2/out* /home/daria/Documents/minor
+    scp -i my_key -P 32222 dvshagalkina@92.242.58.92:/home/dvshagalkina/hw2/close_gaps/long* /home/daria/Documents/minor
     
     
 
