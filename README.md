@@ -64,4 +64,5 @@
 ![image](https://github.com/adriadar/hse21_hw1/blob/main/MultiQC_report/trimmed_general_statistics.png)
 ![image](https://github.com/adriadar/hse21_hw1/blob/main/MultiQC_report/trimmed_per_sequence_quality_scores_plot.png)
 
-## Ссылки
+## Анализ
+[colab с кодом для анализа контигов, скаффолдов и гэпов](https://colab.research.google.com/drive/1ip5FUUN57o337_16wI4cx-0sK598CsDy?usp=sharing)
