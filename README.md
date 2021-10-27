@@ -48,10 +48,12 @@
 
 ### MultiQC отчет
 ###### Для не подрезанных чтений
+[ссылка на полный отчет](https://github.com/adriadar/hse21_hw1/blob/main/MultiQC_report/not_trimmed_multiqc_report.html)
 ![image](https://github.com/adriadar/hse21_hw1/blob/main/MultiQC_report/not_trimmed_general_statistics.png)
 ![image](https://github.com/adriadar/hse21_hw1/blob/main/MultiQC_report/not_trimmed_per_sequence_quality_scores_plot.png)
 
 ###### Для подрезанных чтений
+[ссылка на полный отчет](https://github.com/adriadar/hse21_hw1/blob/main/MultiQC_report/trimmed_multiqc_report.html)
 ![image](https://github.com/adriadar/hse21_hw1/blob/main/MultiQC_report/trimmed_general_statistics.png)
 ![image](https://github.com/adriadar/hse21_hw1/blob/main/MultiQC_report/trimmed_per_sequence_quality_scores_plot.png)
 
